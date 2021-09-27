@@ -1,10 +1,13 @@
 import beepers.Beeper;
+import cars.Car;
 import engines.Engine;
+import gearBoxes.GearBox;
 
 public class Viper extends Car {
 
-    public Viper(Beeper beeper, Engine engine) {
-        super(beeper, engine);
+
+    public Viper(GearBox gearBox, Beeper beeper, Engine engine, String oil) {
+        super(gearBox, beeper, engine, oil);
     }
 
     public void scoopFuel() {
