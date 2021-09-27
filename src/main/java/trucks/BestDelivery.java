@@ -1,4 +1,4 @@
-package tracks;
+package trucks;
 
 public class BestDelivery implements CargoDelivery {
     @Override

@@ -1,16 +1,16 @@
-package tracks;
+package trucks;
 
 import beepers.Beeper;
 import cars.Car;
 import engines.Engine;
 import gearBoxes.GearBox;
 
-public abstract class Track extends Car {
+public abstract class Truck extends Car {
     private String maker;
     private double loadCapacity;
     private CargoDelivery cargoDelivery;
 
-    public Track(GearBox gearBox, String maker, double loadCapacity, Beeper beeper, Engine engine, CargoDelivery cargoDelivery,
+    public Truck(GearBox gearBox, String maker, double loadCapacity, Beeper beeper, Engine engine, CargoDelivery cargoDelivery,
                  String oil) {
         super(gearBox, beeper, engine, oil);
         this.maker = maker;

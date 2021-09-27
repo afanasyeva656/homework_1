@@ -1,4 +1,4 @@
-package tracks;
+package trucks;
 
 public interface CargoDelivery {
         String loading(double weight);
